@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title> JavaQuiz | 3</title>
+        <link rel="stylesheet" href="ICTCSS1.css">
+    </head>
+    <body class="body">
+
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>When was JavaScript invented?</h2>
+    <button class="right" onclick="addScore()">1995</button>
+    <button>1979</button>
+    <button>1993</button>
+    <button>1985</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>Who invented JavaScript?</h2>
+    <button>Dennis Ritchie</button>
+    <button>James Gosling</button>
+    <button class="right" onclick="addScore()">Brendan Eich</button>
+    <button>Ryan Reynolds</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>Which of the following is used to declare a constant variable in JavaScript?</h2>
+    <button class="right" onclick="addScore()">var</button>
+    <button>let</button>
+    <button>const</button>
+    <button>constVar</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>How do you comment a single line in JavaScript?</h2>
+    <button class="right" onclick="addScore()">// comment</button>
+    <button>/* comment</button>
+    <button>-- comment</button>
+    <button>#comment</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>In which HTML Element do we put Javascript in?</h2>
+    <button>Slash</button>
+    <button class="right" onclick="addScore()">Angles</button>
+    <button>Curly Brackets</button>
+    <button>Parenthesis</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>What does JavaScript do in your HTML?</h2>
+    <button>Adds Design</button>
+    <button>Acts as the structrual component of the webpage</button>
+    <button>Controls the layout of the content</button>
+    <button class="right" onclick="addScore()">Adds interactivity to the website</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>What does onclick mean?</h2>
+    <button>The mouse button is moved</button>
+    <button class="right" onclick="addScore()">Clicks the object using the mouse</button>
+    <button>A mouse button is pressed</button>
+    <button>A keyboard key is pressed</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>Which of the follow is JavaScript NOT used for?</h2>
+    <button>Web and Mobile apps</button>
+    <button>Game Development</button>
+    <button>Interactive Behavior on Websites</button>
+    <button class="right" onclick="addScore()">Can access webpages from another domain</button>
+</div>
+
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>JavaScript is the same as Java</h2>
+    <button>True</button>
+    <button class="right" onclick="addScore()">False</button>
+    <button>Sometimes</button>
+    <button>Almost</button>
+</div>
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>What events happens when a user clicks on an HTML element?</h2>
+    <button>onchange</button>
+    <button>onmouseover</button>
+    <button>onmouseclick</button>
+    <button class="right" onclick="addScore()">onclick</button>
+</div>
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>Is JavaScript case-sensitive?</h2>
+    <button class="right" onclick="addScore()">Yes</button>
+    <button>No</button>
+    <button>Sometimes</button>
+    <button>I don't know</button>
+</div>
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>What is JavaScript used for?</h2>
+    <button class="right" onclick="addScore()">To make pages interactive</button>
+    <button>To make websites</button>
+    <button>To layout a webpage</button>
+    <button>To design a webpage</button>
+</div>
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>JavaScript is an _____ language?</h2>
+    <button class="right" onclick="addScore()">Object-Oriented</button>
+    <button>Object-Based</button>
+    <button>Procedural</button>
+    <button>Objective</button>
+</div>
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>Which of the following keywords is used to define a variable in JavaScript?</h2>
+    <button>var</button>
+    <button>let</button>
+    <button class="right" onclick="addScore()">Both A and B</button>
+    <button>None of the above</button>
+</div>
+<div class="box">
+    <h1>JavaQuiz | 3</h1>
+    <hr size="2" color="black"><br>
+    <h2>Which of the following methods can be used to display date in some form using JavaScript</h2>
+    <button>document.write</button>
+    <button>console.log</button>
+    <button>window.alert</button>
+    <button class="right" onclick="addScore()">All of the Above</button>
+</div>
+
+
+
+
+
+
+
+
+<div class="box">
+    <h1 id="ScoreDisp"> Score:</h1>
+    <button onclick="displayScore()">Submit</button>
+    <button class="next"><a href="EHREN1.html">NEXT PAGE</a></button>
+</div>
+<script>
+
+    const display = document.getElementById('ScoreDisp')
+
+    function displayScore(){
+        display.innerText = "Score: " + score
+    }
+    let score = 0
+
+    function addScore(){
+        score++
+    }
+</script>
+
+    </body>
+</html>

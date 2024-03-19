@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>ICT QUIZ : MAIN PAGE</title>
+        <link rel="stylesheet" href="ICTCSS.css">
+    </head>
+    <body class="body1">
+        <script>
+             function Wrong(btn){
+                btn.style.backgroundColor = "#ff9393";
+            }
+            function Correct(btn){
+                btn.style.backgroundColor = "#9aeabc";
+            }
+
+            function Wrong1(){
+                alert("You got it Wrong! Try Again.")
+            }
+            function Correct1(){
+                alert("Yes, correct! Proceed to the next page.")
+            }
+            
+        </script>
+       <div class="box">
+            <h1>JavaQuiz | ICT PT</h1>
+            <hr size="2" color="black"><br>
+            <h2>Made and Prepared by: Click Me! (Is it green? We made it!)</h2>
+            <button class="button1" onclick="Wrong(this)">REMIGIO D. BUENAVENTURA III</button>
+            <button class="button1" onclick="Correct(this)">JOSHUA LORENZ S. CORNEJO</button>
+            <button class="button1" onclick="Correct(this)">EHREN TIMOTHY CRUZ</button>
+            <button class="button1" onclick="Correct(this)">ACE JADEN A. DOMINGO</button>
+            <button class="button1" onclick="Wrong(this)">JOHN CYLER GUTIERREZ</button>
+       </div>
+       
+       <div class="box">
+        <h1>JavaQuiz | ICT PT</h1>
+        <hr size="2" color="black"><br>
+        <h2>Are you ready?</h2>
+        <button class="button1" onclick="Correct1()">YES</button>
+        <button class="button1" onclick="Wrong1()">NO</button>
+        </div>
+
+        <div class="box">
+            <h1>JavaQuiz | ICT PT</h1>
+            <hr size="2" color="black"><br>
+            <h2>Choose a quiz! Hover over!</h2>
+            <button class="button1"><a href="ICTHTML.html">QUIZ 1: With Alerts</a></button>
+            <button class="button1"><a href="a1.html">QUIZ 2: Changing Colors</a></button>
+            <button class="button1"><a href="EHREN.html">QUIZ 3: Scores</a></button>
+            </div>
+    </body>
+</html>

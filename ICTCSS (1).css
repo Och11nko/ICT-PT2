@@ -1,0 +1,100 @@
+div.box {
+    background-color: #fff;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 27%;
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    background-color:#1368CE;
+}
+.body1 {
+    background-color: #671B6D;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.button{
+    background: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button1:hover {
+    background:#671B6D;
+    color: white
+}
+
+.button1{
+    background: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button:hover {
+    background:#1368CE;
+    color: white
+}
+
+button.next {
+    background:#1368CE;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#wrong {
+    background-color:#ff9393;
+}
+
